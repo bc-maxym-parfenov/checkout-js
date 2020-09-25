@@ -2,6 +2,50 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.75.1-alpha.1601037926586](https://github.com/bigcommerce/checkout-js/compare/v1.64.0...v1.75.1-alpha.1601037926586) (2020-09-25)
+
+
+### Features
+
+* **checkout:** CHECKOUT-5089 Bump checkout-sdk version ([44d0a15](https://github.com/bigcommerce/checkout-js/commit/44d0a15c4e7f8ce1a2497b00cd7ef00ab5bd7dc0))
+* **checkout:** CHECKOUT-5101 Upgrade React version to 16.13 ([4b0bd7e](https://github.com/bigcommerce/checkout-js/commit/4b0bd7e50ab0d7c6c6fa615f0f80bbdee01b5abe))
+* **checkout:** CHECKOUT-5101 Upgrade TypeScript version to 3.9 ([8e810ce](https://github.com/bigcommerce/checkout-js/commit/8e810cef67b41b739d7337c63629d4bb867ce688))
+* **checkout:** CHECKOUT-5102 Show request ID in error modal if available ([a4e4f00](https://github.com/bigcommerce/checkout-js/commit/a4e4f0042d3306b961610501158e55b22836fb8f))
+* **checkout:** INT-2919 Change display text for bolt ([e3b50eb](https://github.com/bigcommerce/checkout-js/commit/e3b50eb7de71cee2c527dec68ce5cb50c607c34b))
+* **checkout:** INT-2919 Desplay bolt in checkout page ([d227d13](https://github.com/bigcommerce/checkout-js/commit/d227d1346cdbbbe53b130e8335f04ec19c1b9313))
+* **payment:** CHECKOUT-4947 Use hosted credit card fields for Braintree payment provider ([49d1e28](https://github.com/bigcommerce/checkout-js/commit/49d1e280127de7f7974105c03d863596d0a7feed))
+* **payment:** INT-2532 Accept payments through StripeV3 using iDEAL and SEPA ([69ac6cd](https://github.com/bigcommerce/checkout-js/commit/69ac6cdd7b93c0768fbe8b7e95b8316cee06be6b))
+* **payment:** INT-2653 Accept payments through StripeV3 using Alipay ([12c816a](https://github.com/bigcommerce/checkout-js/commit/12c816a290d5e62d876d7c5033aac36e94ea221d))
+* **payment:** INT-2653 Bump version checkout sdk ([64a82b3](https://github.com/bigcommerce/checkout-js/commit/64a82b3e6e1989d9f765403bc9dc2e8b155f41b1))
+* **payment:** INT-2907 Bump SDK. ([9146066](https://github.com/bigcommerce/checkout-js/commit/9146066fd8f70004e6d179d0a7a4c74c2851be60))
+* **payment:** INT-2919 Bump SDK. ([4ac330b](https://github.com/bigcommerce/checkout-js/commit/4ac330b464e2cecc0d0f20000d9ecd08c5a88dfe))
+* **payment:** INT-3016 Bump SDK. ([9ebfde6](https://github.com/bigcommerce/checkout-js/commit/9ebfde6b9d4fa697eb05cceee17cd9f756bb6d6b))
+* **payment:** INT-3020 added dankort payment method mark ([423cb3e](https://github.com/bigcommerce/checkout-js/commit/423cb3e1e74a342943ea521cdab2569964a67a67))
+* **payment:** PAYPAL-202 bump checkout-sdk to 1.90 ([8ccf86b](https://github.com/bigcommerce/checkout-js/commit/8ccf86beb8f78915d46cc9cf8d699c0061e72339))
+* **payment:** PAYPAL-539 Bump version checkout sdk ([b455eb6](https://github.com/bigcommerce/checkout-js/commit/b455eb6d67efc2a7e118fbcb8f5ed04206ecaf3a))
+* **payment:** PAYPAL-652 Bump checkout-sdk ([4d15b61](https://github.com/bigcommerce/checkout-js/commit/4d15b617c5b955ab1dc1daf2a872d40df29ef2cb))
+* **shipping:** INT-2823 Show spinner in StaticAddressEditable ([3fbbb42](https://github.com/bigcommerce/checkout-js/commit/3fbbb42226e65b7277477e5746137adb55447e2f))
+
+
+### Bug Fixes
+
+* **checkout:** DATA-6891 missing transactions ([944209d](https://github.com/bigcommerce/checkout-js/commit/944209df248c56821c3a3b2b0f4cd4dc4460c511))
+* **payment:** CHECKOUT-5099 Only show inline error message if form validation fails without any input attempt ([757b530](https://github.com/bigcommerce/checkout-js/commit/757b5308ea1d6ea6789d23c6c7bf4e4540c154d1))
+* **payment:** INT-2754 adding conditional for updateFieldValue on ([6f349d3](https://github.com/bigcommerce/checkout-js/commit/6f349d34c0d6889c14782c20191a4e9ce067a3ec))
+* **payment:** INT-2871 Styled credit card of apms on adyen v2. ([8a13caa](https://github.com/bigcommerce/checkout-js/commit/8a13caa8a40f12f81c83da357c9bb040968b0c71))
+* **payment:** INT-2902  modified style in order to avoid  overlapping fields with small devices  on stripeV3 ([83f26f4](https://github.com/bigcommerce/checkout-js/commit/83f26f41dfcc282d8086880d90a6202433f4faec))
+* **payment:** INT-2914 Added validation to show the correct dropdown for vaulted accounts ([bd88d41](https://github.com/bigcommerce/checkout-js/commit/bd88d41bcca90bfe5deff8b810dad3df15c9044f))
+* **payment:** INT-2922 Bump SDK. ([461a82e](https://github.com/bigcommerce/checkout-js/commit/461a82e4cbcf07c3b0d25952c6c68b0127a95aa6))
+* **payment:** INT-2922 Fix mock ([8a74231](https://github.com/bigcommerce/checkout-js/commit/8a74231aae97477a16f2b65b033c70e59ccdd7f5))
+* **payment:** INT-2995 Bump SDK. ([5a37f65](https://github.com/bigcommerce/checkout-js/commit/5a37f65095287c1997fc25ce26ce48621da50a23))
+* **payment:** INT-3010 Bump SDK. ([5d40576](https://github.com/bigcommerce/checkout-js/commit/5d40576932d262951588fc3d916bf1744f66fda7))
+* **payment:** INT-3043 Bump SDK. ([64159c6](https://github.com/bigcommerce/checkout-js/commit/64159c6a293e00fc885e87fee7a3b24437efe420))
+
+
+### Code Refactoring
+
+* **billing:** INT-3025 Update the text when no billing address is provided for AmazonPayV2 ([4fda062](https://github.com/bigcommerce/checkout-js/commit/4fda062dcce2904e69871c604f13e7b6bf223e19))
+
 ## [1.75.0](https://github.com/bigcommerce/checkout-js/compare/v1.74.0...v1.75.0) (2020-08-18)
 
 
